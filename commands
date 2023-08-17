@@ -1,0 +1,1000 @@
+ls
+  746  cat pg_2.py
+  747  cat data_struc.py
+  748  git init
+  749  cd ..
+  750  git add python_scripts/
+  751  cd /
+  752  cd proc/
+  753  cd ..
+  754  cd opt/
+  755  cd scripts/
+  756  cd python_scripts/
+  757  cd ..
+  758  git init python_scripts/
+  759  cd python_scripts/
+  760  git status
+  761  git clone https://github.com/Abej93/pythone_practice.git
+  762  ls
+  763  cd ..
+  764  git push origin python_scripts/
+  765  cd python_scripts/
+  766  cd pythone_practice/
+  767  ls
+  768  cd ..
+  769  git status
+  770  cat data_struc.py
+  771  cat proj1.py
+  772  cat pg_4.py
+  773  git add pg_4.py
+  774  git commit -m "add pg_4 python"
+  775  git status
+  776  git log
+  777  git log --oneline
+  778  cat 0357841
+  779  git status pg_4.py
+  780  git push origin pg_4.py
+  781  git remote
+  782  git remote -v
+  783  git push origin master
+  784  git checkout
+  785  git remote -v
+  786  git remote add origin https://github.com/Abej93/pythone_practice.git
+  787  git remote -v
+  788  git push origin main
+  789  git push origin pg_4.py
+  790  git push origin master
+  791  clear
+  792  ls
+  793  vim proj1.py
+  794  python3 proj1.py
+  795  vim proj1.py
+  796  python3 proj1.py
+  797  vim proj1.py
+  798  python3 proj1.py
+  799  vim proj1.py
+  800  python3 proj1.py
+  801  vim proj1.py
+  802  cd /
+  803  apt install docker.io
+  804  clear
+  805  cd home/
+  806  cd ubuntu/
+  807  ls
+  808  cd ab
+  809  cd ab1/
+  810  ls
+  811  cd ..
+  812  mkdir docker-proj
+  813  cd docker-proj/
+  814  docker ps
+  815  cat /etc/group
+  816  usermod -aG docker $user
+  817  cat /etc/group
+  818  sudo usermod -aG docker $user
+  819  docker ps
+  820  docker images
+  821  docker pull mysql:latest
+  822  docker images
+  823  docker run mysql:latest
+  824  docker run -d -e MYSQL_ROOT_PASSWORD=a@12 mysql:latest
+  825  docker ps
+  826  docker exec -it c70791fef641 sh
+  827  clear
+  828  systemctl status docker
+  829  ocker ps
+  830  docker ps
+  831  clear
+  832  mkdir java-app
+  833  cd java-app/
+  834  vim Hello.java
+  835  java Hello.java
+  836  ls
+  837  vim Dockerfile
+  838  ls
+  839  docker build . -t java-app
+  840  docker ps
+  841  docker images
+  842  docker run java-app
+  843  clear
+  844  ls
+  845  mkdir flask-app
+  846  cd flask-app/
+  847  vim app.py
+  848  ls
+  849  cd docker-proj/
+  850  ls
+  851  cd java-app/
+  852  cd flask-app/
+  853  ls
+  854  vim app.py
+  855  vim app1.py
+  856  ls
+  857  vim Dockerfile
+  858  docker build . -t flask-app
+  859  docker images
+  860  clear
+  861  docker run -d -p 5000:5000 flask-app:latest
+  862  docker ps
+  863  cd docker-proj/
+  864  cd docker-proj/
+  865  ls
+  866  docker run -p 80:80 nginx
+  867  cd docker-proj/
+  868  ls
+  869  cd html-app
+  870  mkdir html-app
+  871  cd html-app/
+  872  vim html_test.html
+  873  cat html_test.html
+  874  cd ..
+  875  ls
+  876  cd java-app/
+  877  ls
+  878  vim Dockerfile
+  879  cd ..
+  880  cd html-app/
+  881  ls
+  882  cd ..
+  883  clear
+  884  ls
+  885  cd java-app/
+  886  ls
+  887  cd flask-app/
+  888  ls
+  889  cd Dockerfile
+  890  vim Dockerfile
+  891  cd ..
+  892  cd html-app/
+  893  ls
+  894  vim html_test.html
+  895  vim DockerFile
+  896  ls
+  897  cd ..
+  898  ls
+  899  cd java-app/
+  900  ls
+  901  cd flask-app/3
+  902  cd flask-app/
+  903  ls
+  904  vim Dockerfile
+  905  cd ..
+  906  cd..
+  907  cd ..
+  908  clera
+  909  clear
+  910  cd html-app/
+  911  systemctl status docker
+  912  clear
+  913  rm DockerFile
+  914  vim Dockerfile
+  915  cd ..
+  916  ls
+  917  cd java-app/3
+  918  cd java-app/
+  919  vim Dockerfile
+  920  cd ..
+  921  cd java-app/
+  922  vim Dockerfile
+  923  cd ..
+  924  cd html-app/
+  925  vim Dockerfile
+  926  ls
+  927  vim Dockerfile
+  928  docker build -t html-app
+  929  history
+  930  docker build . -t html-app
+  931  docker images
+  932  docker run -d -p 80:80 html-app:latest
+  933  docker run -d -p 50:50 html-app:latest
+  934  docker ps
+  935  docker kill 3e2195c58785
+  936  docker remove 3e2195c58785
+  937  docker ps
+  938  docker run -d html-app:v1
+  939  docker build . -t html-app:v1
+  940  docker ps
+  941  docker images
+  942  docker run -d html-app:v1
+  943  docker kill 9c0c53339f28
+  944  docker ps
+  945  docker kill cfb5762b33a8
+  946  docker remove cfb5762b33a8
+  947  docker rm cfb5762b33a8
+  948  docker ps
+  949  docker images
+  950  docker rm 9c0c53339f28
+  951  vim html_test.html
+  952  vim Dockerfile
+  953  docker build . -t html-app:v2
+  954  docker images
+  955  docker run -d -p 80:80 html-app:v2
+  956  docker ps
+  957  docker run -d -p 5000:5000 html-app:v2
+  958  docker rmi c40ca901d3e9
+  959  docker rmi 9c0c53339f28
+  960  docker rmi -f 9c0c53339f28
+  961  docker images
+  962  cd ..
+  963  mkdir jv-app
+  964  cd jv-app/
+  965  vim FactorialCalculator.java
+  966  vim Dockerfile
+  967  cd ..
+  968  ls
+  969  cd java-app/
+  970  vim Dockerfile
+  971  cd ..
+  972  cd jv-app/
+  973  vim Dockerfile
+  974  ls
+  975  vim Dockerfile
+  976  cd ..
+  977  cd java-app/
+  978  vim Dockerfile
+  979  cd ..
+  980  cd jv-app/
+  981  vim Dockerfile
+  982  docker build . -t jv-app:latest
+  983  ls
+  984  vim Dockerfile
+  985  docker build . -t jv-app:latest
+  986  docker images
+  987  rmi 646e331913cc
+  988  rmi -f 646e331913cc
+  989  docker images
+  990  docker rmi 646e331913cc
+  991  docker rmi -f 646e331913cc
+  992  docker images
+  993  ls
+  994  vim Dockerfile
+  995  cd ..
+  996  cd java-app/
+  997  vim Dockerfile
+  998  cd ..
+  999  cd jv-app/
+ 1000  vim Dockerfile
+ 1001  docker build . -t jv-app:v1
+ 1002  docker images
+ 1003  history
+ 1004  docker run jv-app
+ 1005  docker ps
+ 1006  docker images
+ 1007  docker run jv-app:v1
+ 1008  clear
+ 1009  dockerimages
+ 1010  clear
+ 1011  docker images
+ 1012  docker ps
+ 1013  docker run jv-app:v1
+ 1014  cd /
+ 1015  cd var/
+ 1016  ls
+ 1017  cd /
+ 1018  cd www
+ 1019  ls
+ 1020  cd var
+ 1021  ls
+ 1022  cd www
+ 1023  clear
+ 1024  cd /
+ 1025  ls
+ 1026  cd var
+ 1027  ls
+ 1028  cd www
+ 1029  cd html
+ 1030  cd /
+ 1031  ls
+ 1032  cd var
+ 1033  ls
+ 1034  mkdir www
+ 1035  ls
+ 1036  cd www
+ 1037  ls
+ 1038  mkdir html
+ 1039  vim index.html
+ 1040  ls
+ 1041  mv index.html html/
+ 1042  ls
+ 1043  cd html/
+ 1044  ls
+ 1045  cd /
+ 1046  ls
+ 1047  cd etc
+ 1048  ls
+ 1049  cd nginx
+ 1050  cd /
+ 1051  ls
+ 1052  cd /etc/nginx
+ 1053  cd home/
+ 1054  cd ubuntu/
+ 1055  cd docker-proj/
+ 1056  ls
+ 1057  cd html-app/
+ 1058  ls
+ 1059  cd Dockerfile
+ 1060  vim Dockerfile
+ 1061  cd /
+ 1062  cd /usr/share/nginx/html
+ 1063  cd /usr/share
+ 1064  ls
+ 1065  cd /
+ 1066  cd /var/www/html/index.html
+ 1067  ls
+ 1068  cd /var/www/html/
+ 1069  ls
+ 1070  cd /
+ 1071  cd home/
+ 1072  cd ubuntu/
+ 1073  ls
+ 1074  cd docker-proj/
+ 1075  cd html-app/
+ 1076  vim Dockerfile
+ 1077  rm html_test.html
+ 1078  docker build . -t html-app:new
+ 1079  cd /
+ 1080  cd /var/www/html
+ 1081  ls
+ 1082  pwd
+ 1083  cd /
+ 1084  cd home/
+ 1085  cd ubuntu/
+ 1086  cd docker-proj/
+ 1087  cd html-app/
+ 1088  vim Dockerfile
+ 1089  cd /
+ 1090  cd usr
+ 1091  cd share/
+ 1092  ls
+ 1093  cd /
+ 1094  apt install nginx
+ 1095  cd usr/
+ 1096  cd share/
+ 1097  cd nginx/
+ 1098  ls
+ 1099  cd html/
+ 1100  ls
+ 1101  cd index.html
+ 1102  vim index.html
+ 1103  cd /
+ 1104  cd var
+ 1105  cd www
+ 1106  ls
+ 1107  cd html/
+ 1108  ls
+ 1109  vim index.html
+ 1110  rm index.html
+ 1111  vim index.nginx-debian.html
+ 1112  exit
+ 1113  cd docker-proj/
+ 1114  ls
+ 1115  df -h
+ 1116  docker image prune
+ 1117  docker ps
+ 1118  docker images
+ 1119  docker container prune
+ 1120  docker system prune
+ 1121  docker image prune --all
+ 1122  df -h
+ 1123  clear
+ 1124  df -h
+ 1125  clear
+ 1126  mkdir django-app
+ 1127  cd django-app/
+ 1128  git clone https://github.com/Abej93/django-todo-cicd.git
+ 1129  ls
+ 1130  cd django-todo-cicd/
+ 1131  ls
+ 1132  cat Dockerfile
+ 1133  cd docker-proj/
+ 1134  ls
+ 1135  cd django-app/
+ 1136  cd django-todo-cicd/
+ 1137  ls
+ 1138  car Dockerfile
+ 1139  cat Dockerfile
+ 1140  clear
+ 1141  docker build . -t django-app
+ 1142  clear
+ 1143  docker run -d -p 8000:8000 django-app:latest
+ 1144  docker ps
+ 1145  docker kill 98ee736ba92d
+ 1146  docker rm 98ee736ba92d
+ 1147  docker run -d -p 8000:8000 django-app:v1
+ 1148  docker images
+ 1149  docker build . -t django-app:v1
+ 1150  docker run -d -p 8000:8000 django-app:v1
+ 1151  clear
+ 1152  ls
+ 1153  cd ..
+ 1154  mkdir volumes
+ 1155  cd volumes/
+ 1156  mkdir django-app-volume
+ 1157  cd django-app-volume/
+ 1158  ls
+ 1159  pwd
+ 1160  docker volume ls
+ 1161  docker volume create --name django-app-volume --opt type=none --opt device=/home/ubuntu/docker-proj/volumes/django-app-volume --opt o=bind
+ 1162  docker volume ls
+ 1163  docker ps
+ 1164  cd docker-proj/
+ 1165  ls
+ 1166  cd volumes/
+ 1167  ls
+ 1168  cd django-app-volume/
+ 1169  ls
+ 1170  docker ps
+ 1171  docker kill a7f2b7ec3cdd
+ 1172  docker rm a7f2b7ec3cdd
+ 1173  docker ps
+ 1174  clear
+ 1175  cd docker-proj/
+ 1176  ls
+ 1177  cd v
+ 1178  cd volumes/
+ 1179  cd django-app-volume/
+ 1180  docker volume
+ 1181  docker volume create
+ 1182  docker volume ls
+ 1183  docker ps
+ 1184  clear
+ 1185  docker ps
+ 1186  history
+ 1187  clear
+ 1188  cd ..
+ 1189  ls
+ 1190  cd ..
+ 1191  ls
+ 1192  cd django-app/
+ 1193  ls
+ 1194  cd django-todo-cicd/
+ 1195  ls
+ 1196  cat Dockerfile
+ 1197  docker build . -t django-app:v2
+ 1198  history
+ 1199  docker run -d -p 8000:8000 django-app:v2
+ 1200  clear
+ 1201  ls
+ 1202  cd ..
+ 1203  ls
+ 1204  cd volumes/
+ 1205  ls
+ 1206  cd django-app-volume/
+ 1207  ls
+ 1208  docker ps
+ 1209  ls
+ 1210  docker kill 68e4b8e94575
+ 1211  docker rm 68e4b8e94575
+ 1212  docker ps
+ 1213  docker run -d --mount source=django-app-volume,target=/data -p 8000:8000 django-app:v5
+ 1214  docker images
+ 1215  docker run -d --mount source=django-app-volume,target=/data -p 8000:8000 django-app:v2
+ 1216  ls
+ 1217  docker ps
+ 1218  docker exec -it 4bd3bce952c7 bash
+ 1219  clear
+ 1220  ls
+ 1221  cat sfile.txt
+ 1222  docker exec -it
+ 1223  docker exec -it 4bd3bce952c7 bash
+ 1224  docker ps
+ 1225  docker kill 4bd3bce952c7
+ 1226  docker rm  4bd3bce952c7
+ 1227  docker run -d --mount source=django-app-volume,target=/data -p 8000:8000 django-app:v2
+ 1228  docker ps
+ 1229  docker exec -it 3c1cd52faeb1 bash
+ 1230  clear
+ 1231  ls
+ 1232  cd docker-proj/
+ 1233  ls
+ 1234  cd docker-proj/
+ 1235  ls
+ 1236  clear
+ 1237  mkdir two-tier-app
+ 1238  cd two-tier-app/
+ 1239  ls
+ 1240  vim app.py
+ 1241  cd docker-proj/
+ 1242  ls
+ 1243  cd two-tier-app/
+ 1244  ls
+ 1245  vim app.py
+ 1246  ls
+ 1247  mkdir templates
+ 1248  cd templates/
+ 1249  vim index.html
+ 1250  ls
+ 1251  cd ..
+ 1252  ls
+ 1253  vim requ.txt
+ 1254  ls
+ 1255  clear
+ 1256  ls
+ 1257  vim Dockerfile
+ 1258  ls
+ 1259  vim requ.txt
+ 1260  vim app.py
+ 1261  vim requ.txt
+ 1262  vim Dockerfile
+ 1263  docker build . -t test-two-tier-backend
+ 1264  vim Dockerfile
+ 1265  docker build . -t test-two-tier-backend
+ 1266  cd docker-proj/
+ 1267  ls
+ 1268  cd two-tier-app/
+ 1269  ls
+ 1270  vim Dockerfile
+ 1271  docker build . -t test-two-tier-backend
+ 1272  vim Dockerfile
+ 1273  docker build . -t test-two-tier-backend
+ 1274  vim Dockerfile
+ 1275  docker build . -t test-two-tier-backend
+ 1276  vim Dockerfile
+ 1277  docker build . -t test-two-tier-backend
+ 1278  vim Dockerfile
+ 1279  docker build . -t test-two-tier-backend
+ 1280  vim Dockerfile
+ 1281  docker build . -t test-two-tier-backend
+ 1282  vim Dockerfile
+ 1283  docker build . -t test-two-tier-backend
+ 1284  vim Dockerfile
+ 1285  docker build . -t test-two-tier-backend
+ 1286  vim Dockerfile
+ 1287  docker build . -t test-two-tier-backend
+ 1288  vim Dockerfile
+ 1289  docker build . -t test-two-tier-backend
+ 1290  docker images
+ 1291  docker rmi e2fe23219411
+ 1292  docker rmi 07e57425321b
+ 1293  docker rmi --f 07e57425321b
+ 1294  docker rmi -f 07e57425321b
+ 1295  docker rmi -f e2fe23219411
+ 1296  docker images
+ 1297  docker rmi -f b13a32a31d1c
+ 1298  docker rmi -f 2740de0e48b0
+ 1299  docker images
+ 1300  docker rmi -f 6d514542bd80
+ 1301  docker images
+ 1302  docker rmi -f 172abef406e3
+ 1303  docker images
+ 1304  docker rmi -f 482c6521d578
+ 1305  docker images
+ 1306  docker rmi -f cec39d5ca183
+ 1307  docker images3
+ 1308  docker images
+ 1309  clear
+ 1310  vim Dockerfile
+ 1311  docker build . -t test-two-tier-backend
+ 1312  vim Dockerfile
+ 1313  docker build . -t test-two-tier-backend
+ 1314  vim Dockerfile
+ 1315  docker build . -t test-two-tier-backend
+ 1316  vim Dockerfile
+ 1317  docker build . -t test-two-tier-backend
+ 1318  cd docker-proj/
+ 1319  ls
+ 1320  cd two-tier-app/
+ 1321  ls
+ 1322  vim Dockerfile
+ 1323  doocker images
+ 1324  docker images
+ 1325  docker rmi d16e5bf08f7d
+ 1326  docker rmi -f d16e5bf08f7d
+ 1327  docker rmi -f df51fce737b3
+ 1328  docker rmi -f cafdb34ade8e
+ 1329  docker rmi -f 08b4a60472c3
+ 1330  docker images
+ 1331  docker rmi -f 740d828b8433
+ 1332  docker images
+ 1333  docker build . -t test-two-tier-backend
+ 1334  vim Dockerfile
+ 1335  docker images
+ 1336  docker rmi -f 740d828b8433
+ 1337  docker build . -t test-two-tier-backend
+ 1338  vim Dockerfile
+ 1339  cd ..
+ 1340  ls
+ 1341  cd node-app/
+ 1342  ls
+ 1343  cd node-todo-cicd/
+ 1344  ls
+ 1345  cd ..
+ 1346  ls
+ 1347  cd ..
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  cd docker-proj/
+ 1352  ls
+ 1353  cd django-app/
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  cd two-tier-app/
+ 1358  vim Dockerfile
+ 1359  docker build . -t test-two-tier-backend
+ 1360  vim Dockerfile
+ 1361  docker build . -t test-two-tier-backend
+ 1362  vim Dockerfile
+ 1363  cd ..
+ 1364  ls
+ 1365  cd html-app/
+ 1366  ls
+ 1367  vim Dockerfile
+ 1368  cd ..
+ 1369  ls
+ 1370  cd node-app/
+ 1371  ls
+ 1372  cd node-todo-cicd/
+ 1373  ls
+ 1374  cd ..
+ 1375  ls
+ 1376  cd two-tier-app/
+ 1377  ls
+ 1378  cd requ.txt
+ 1379  cat requ.txt
+ 1380  vim Dockerfile
+ 1381  docker build . -t test-two-tier-backend
+ 1382  docker images
+ 1383  docker rmi -f 290f15a71277
+ 1384  docker rmi -f 9c70fb0099f6
+ 1385  docker rmi -f dc605cd12034
+ 1386  docker rmi -f 9cfb772ef0ae
+ 1387  docker rmi -f 6e4823478dd8
+ 1388  docker images
+ 1389  vim Dockerfile
+ 1390  docker build . -t test-two-tier-backend
+ 1391  vim requ.txt
+ 1392  vim Dockerfile
+ 1393  docker build . -t test-two-tier-backend
+ 1394  vim Dockerfile
+ 1395  vim app.py
+ 1396  vim requ.txt
+ 1397  vim Dockerfile
+ 1398  docker build . -t test-two-tier-backend
+ 1399  vim Dockerfile
+ 1400  docker build . -t test-two-tier-backend
+ 1401  docker images
+ 1402  docker rmi -f 99462be300c0
+ 1403  docker rmi -f a5fee9aa0e3a
+ 1404  docker rmi -f 385b0c37bbb7
+ 1405  docker images
+ 1406  history
+ 1407  docker stats
+ 1408  free
+ 1409  free -h
+ 1410  docker images
+ 1411  docker rmi -f b0f433174e1a
+ 1412  docker rmi -f 0d3b11fd1fa0
+ 1413  docker images
+ 1414  docker rmi -f 54260638d07c
+ 1415  docker images
+ 1416  docker build . -t test-two-tier-backend
+ 1417  docker run -d -p 5000:5000 test-two-tier-backend:latest
+ 1418  clear
+ 1419  docker images
+ 1420  docker ps
+ 1421  docker kill bbb19553498a
+ 1422  docker rm bbb19553498a
+ 1423  clear
+ 1424  vim docker-compose.yml
+ 1425  docker-compose up
+ 1426  apt install docker-compose
+ 1427  docker-compose up
+ 1428  vim docker-compose.yml
+ 1429  docker-compose up
+ 1430  vim docker-compose.yml
+ 1431  docker-compose up
+ 1432  vim docker-compose.yml
+ 1433  docker-compose up
+ 1434  vim docker-compose.yml
+ 1435  docker-compose up
+ 1436  vim docker-compose.yml
+ 1437  dodocker-compose up
+ 1438  docker-compose up
+ 1439  vim docker-compose.yml
+ 1440  docker-compose up
+ 1441  vim docker-compose.yml
+ 1442  docker-compose up
+ 1443  vim docker-compose.yml
+ 1444  docker-compose up
+ 1445  vim docker-compose.yml
+ 1446  history
+ 1447  vim docker-compose.yml
+ 1448  docker-compose up
+ 1449  vim docker-compose.yml
+ 1450  docker-compose up
+ 1451  vim docker-compose.yml
+ 1452  rm docker-compose.yml
+ 1453  vim docker-compose.yml
+ 1454  docker-compose up
+ 1455  vim docker-compose.yml
+ 1456  docker-compose up
+ 1457  docker-compose up -d
+ 1458  docker-compose version
+ 1459  docker compose version
+ 1460  vim docker-compose.yml
+ 1461  docker-compose up
+ 1462  vim docker-compose.yml
+ 1463  docker-compose up
+ 1464  vim docker-compose.yml
+ 1465  docker-compose up
+ 1466  vim docker-compose.yml
+ 1467  docker-compose up
+ 1468  vim docker-compose.yml
+ 1469  cd docker-proj/
+ 1470  ls
+ 1471  cd two-tier-app/
+ 1472  ls
+ 1473  cd docker-compose.yml
+ 1474  vim docker-compose.yml
+ 1475  docker-compose up
+ 1476  rm docker-compose.yml
+ 1477  vim docker-compose.yml
+ 1478  docker-compose up
+ 1479  docker ps
+ 1480  docker exec -it e4d3a415d1f0 bash
+ 1481  docker exec -it e4d3a415d1f0:bash
+ 1482  docker exec -it e4d3a415d1f0: bash
+ 1483  docker exec -it e4d3a415d1f0 bash
+ 1484  clear
+ 1485  docker ps
+ 1486  docker exec -it 88b4bd871e03 bash
+ 1487  docker exec -it e4d3a415d1f0 bash
+ 1488  docker-compose up -d
+ 1489  docker exec -it e4d3a415d1f0 bash
+ 1490  history
+ 1491  docker run -d -p 5000:5000 test-two-tier-backend:v4
+ 1492  docker images
+ 1493  docker run -d -p 5000:5000 two-tier-app_backend:latest
+ 1494  docker images
+ 1495  docker rmi -f c1e40b69532f
+ 1496  docker run -d -p 5000:5000 two-tier-app_backend:latest
+ 1497  docker images
+ 1498  free
+ 1499  docker ps
+ 1500  docker images
+ 1501  dicker rmi -f 733f4ca518e9
+ 1502  docker rmi -f 733f4ca518e9
+ 1503  docker images
+ 1504  docker run -d -p 5000:5000 two-tier-app_backend:latest
+ 1505  docker ps
+ 1506  docker exec -it e4d3a415d1f0 bash
+ 1507  docker run -d -p 5000:5000 mysql:5.7
+ 1508  free -h
+ 1509  man
+ 1510  docker images
+ 1511  docker run -d -p 5000:5000 mysql:5.7
+ 1512  docker images
+ 1513  docker rmi -f 4af03d07a3c9
+ 1514  docker rmi 4af03d07a3c9
+ 1515  docker images
+ 1516  docker rmi -f 4af03d07a3c9
+ 1517  docker images
+ 1518  vmstat
+ 1519  clear
+ 1520  docker ps
+ 1521  docker exec -it e4d3a415d1f0 bash
+ 1522  docker run -it e4d3a415d1f0 bash
+ 1523  docker ps -a
+ 1524  docker ps
+ 1525  clear
+ 1526  docker ps
+ 1527  docker-compose down
+ 1528  docker ps
+ 1529  docker-compose up
+ 1530  docker ps
+ 1531  docker images
+ 1532  cd ..
+ 1533  ls
+ 1534  docker images
+ 1535  cd volumes/
+ 1536  ls
+ 1537  docker volume ls
+ 1538  docker volume ls -a
+ 1539  docker volume ls --help
+ 1540  docker volume ls -f
+ 1541  docker volume ls
+ 1542  docker volume rm 5db35da6db405634599afbe18f18ec4766d6ed314624c10e4a981824ea4b87a0
+ 1543  cd ..
+ 1544  ls
+ 1545  cd two-tier-app/
+ 1546  ls
+ 1547  docker-compose up
+ 1548  free
+ 1549  free -h
+ 1550  cd docker-proj/
+ 1551  ls
+ 1552  cd ..
+ 1553  ls
+ 1554  pwd
+ 1555  cd docker-proj/
+ 1556  ls
+ 1557  pwd
+ 1558  ls
+ 1559  git remote -v
+ 1560  git init
+ 1561  sudo sh -c 'echo 1 >  /proc/sys/vm/drop_caches'
+ 1562  free  -h
+ 1563  sudo sh -c 'echo 2 >  /proc/sys/vm/drop_caches'
+ 1564  free  -h
+ 1565  cd docker-proj/
+ 1566  ls
+ 1567  cd two-tier-app/
+ 1568  ls
+ 1569  docker-compose up
+ 1570  sudo sh -c 'echo 3 >  /proc/sys/vm/drop_caches'
+ 1571  free  -h
+ 1572  sudo sh -c 'echo 3 >  /proc/sys/vm/drop_caches'
+ 1573  free  -h
+ 1574  sudo sh -c 'echo 4 >  /proc/sys/vm/drop_caches'
+ 1575  free  -h
+ 1576  docker-compose up
+ 1577  cd ..
+ 1578  ls
+ 1579  cd volumes/
+ 1580  docker volume ls
+ 1581  docker volume rm django-app-volume
+ 1582  docker volume rm -f django-app-volume
+ 1583  docker volume rm 3a149158106723eba2fad72424142cb8b02b01a32edafa321ae5a4c0ab98d811
+ 1584  docker volume rm a866178cf457738f0cf046d79b9689a8332826f0ac6cd7180a8529968c96f832
+ 1585  free -h
+ 1586  sudo sh -c 'echo 5 >  /proc/sys/vm/drop_caches'
+ 1587  free -h
+ 1588  cd ..
+ 1589  ls
+ 1590  cd two-tier-app/
+ 1591  docker-compose up
+ 1592  docker ps
+ 1593  docker exec -it f89526890785 bash
+ 1594  exit
+ 1595  cd docker-proj/
+ 1596  ls
+ 1597  cd two-tier-app/
+ 1598  docker exec -it f89526890785 bash
+ 1599  docker ps
+ 1600  docker-compose up
+ 1601  docker exec -it f89526890785 bash
+ 1602  history
+ 1603  docker exec -it f89526890785 bash
+ 1604  docker ps
+ 1605  docker logs f89526890785
+ 1606  clear
+ 1607  vim docker-compose.yml
+ 1608  docker-compose up -d
+ 1609  docker ps
+ 1610  docker exec -it f89526890785 bash
+ 1611  vim Dockerfile
+ 1612  vim docker-compose.yml
+ 1613  docker exec -it f89526890785 bash
+ 1614  vim app.py
+ 1615  vim docker-compose.yml
+ 1616  docker exec -it f89526890785 bash
+ 1617  history
+ 1618  docker pull mysql:latest
+ 1619  sudo sh -c 'echo 2 >  /proc/sys/vm/drop_caches'
+ 1620  free -h
+ 1621  sudo sh -c 'echo 3 >  /proc/sys/vm/drop_caches'
+ 1622  free -h
+ 1623  sudo sh -c 'echo 4 >  /proc/sys/vm/drop_caches'
+ 1624  free -h
+ 1625  sudo sh -c 'echo 4 >  /proc/sys/vm/drop_caches'
+ 1626  free -h
+ 1627  sudo sh -c 'echo 5 >  /proc/sys/vm/drop_caches'
+ 1628  free -h
+ 1629  docker images
+ 1630  free -h
+ 1631  sudo sh -c 'echo 2 >  /proc/sys/vm/drop_caches'
+ 1632  free -h
+ 1633  sudo sh -c 'echo 1 >  /proc/sys/vm/drop_caches'
+ 1634  free -h
+ 1635  docker pull mysql:latest:slim
+ 1636  vim Dockerfile
+ 1637  docker pull mysql:latest-slim
+ 1638  free =h
+ 1639  free -h
+ 1640  docker pull mysql:latest
+ 1641  nginx --version
+ 1642  apt remove nginx
+ 1643  free -h
+ 1644  sudo sh -c 'echo 1 >  /proc/sys/vm/drop_caches'
+ 1645  free -h
+ 1646  sudo sh -c 'echo 2 >  /proc/sys/vm/drop_caches'
+ 1647  free -h
+ 1648  docker pull mysql:latest
+ 1649  free -h
+ 1650  cd ..
+ 1651  ls
+ 1652  rm -rf html-app/
+ 1653  free -h
+ 1654  ls
+ 1655  cd volumes/
+ 1656  docker volumes ls
+ 1657  history
+ 1658  docker volume ls
+ 1659  docker volume rm django-app-volume
+ 1660  cd ..
+ 1661  ls
+ 1662  cd django-app/
+ 1663  ls
+ 1664  cd ..
+ 1665  ls
+ 1666  cd jv-app/
+ 1667  ls
+ 1668  cd ..
+ 1669  ls
+ 1670  cd java-app/
+ 1671  ls
+ 1672  cd ..
+ 1673  clear
+ 1674  ls
+ 1675  cd java-app/
+ 1676  git init
+ 1677  cd ..
+ 1678  git init
+ 1679  ls
+ 1680  git add .
+ 1681  ls
+ 1682  git add java-app/
+ 1683  ls
+ 1684  git add java-app
+ 1685  cd java-app/
+ 1686  ls
+ 1687  git add Dockerfile
+ 1688  git commit -m ‘added dfile’
+ 1689  git logs
+ 1690  git log
+ 1691  git commit -m ‘added dfile’
+ 1692  git commit -m "adding"
+ 1693  git remote add origin https://github.com/Abej93/java-app.git
+ 1694  git push -u origin main
+ 1695  git branch -M main
+ 1696  git push -u origin main
+ 1697  git remote
+ 1698  git push -u origin main
+ 1699  clear
+ 1700  ls
+ 1701  cat Dockerfile
+ 1702  cat Hello.java
+ 1703  cd flask-app/
+ 1704  ls
+ 1705  cat Dockerfile
+ 1706  ls
+ 1707  cat app1.py
+ 1708  cd ..
+ 1709  ls
+ 1710  cd ..
+ 1711  ls
+ 1712  cd jv-app/
+ 1713  ls
+ 1714  cat Dockerfile
+ 1715  ls
+ 1716  cat FactorialCalculator.java
+ 1717  cd ..
+ 1718  ls
+ 1719  cd node-app/
+ 1720  ls
+ 1721  cd ..
+ 1722  ls
+ 1723  cd two-tier-app/
+ 1724  ls
+ 1725  cat Dockerfile
+ 1726  ls
+ 1727  cat app.py
+ 1728  ls
+ 1729  vim docker-compose.yml
+ 1730  ls
+ 1731  cat requ.txt
+ 1732  ls
+ 1733  cd templates/
+ 1734  ls
+ 1735  cd docker-proj/
+ 1736  ls
+ 1737  cd two-tier-app/
+ 1738  ls
+ 1739  vd templates/
+ 1740  cd templates/
+ 1741  ls
+ 1742  cat index.html
+ 1743  clear
+ 1744  history
